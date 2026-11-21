@@ -1,0 +1,47 @@
+{
+  "version": "3.2",
+  "ledger": {
+    "spreadsheet_token": "<安装时填写>",
+    "sheet_id": "<安装时填写>",
+    "title": "<安装时填写>",
+    "audit_sheet_id": "<安装时填写>"
+  },
+  "timezone": "Asia/Shanghai",
+  "rules": "../规则定稿_20261105.md",
+  "common": "个人助理工作规范.md",
+  "formula": "今日应提醒公式.txt",
+  "entries": {
+    "morning": {
+      "title": "早间计划",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "time": "08:30",
+      "file": "早间计划.txt"
+    },
+    "evening": {
+      "title": "晚间复盘",
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "time": "17:30",
+      "file": "晚间复盘.txt"
+    },
+    "weekly": {
+      "title": "周复盘",
+      "weekdays": [
+        6
+      ],
+      "time": "10:00",
+      "file": "周复盘.txt"
+    }
+  }
+}
